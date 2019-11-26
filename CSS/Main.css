@@ -1,55 +1,72 @@
-/*#FECCCC*/
-/*#CCFED1*/
 body {
-    background-color: #121212;
-    font-family: 'Nunito', sans-serif;
-    color: #ccc;
+    font-family: 'Varela Round', sans-serif;
+    background-image: url('https://i.imgur.com/UlWpO62.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #logotxt {
-    font-size: 58px;
+    color: #fff;
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
     margin: auto;
-    text-align: center;
     width: 50%;
-    padding-bottom: 0.35em;
-    transition-duration: 0.2s;
-}
-
-#logotxt:hover {
-    color: #FECCCC;
-    transition-duration: 0.2s;
-}
-
-#divider {
-    width: 35em;
-}
-
-#main {
-    margin-top: 10em;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #avatar {
     border-radius: 50%;
-    margin-top: 1.5em;
 }
 
-#avatar1 {
+#avatarBox {
     display: block;
     text-align: center;
 }
 
-#socials {
-    text-align: center; 
-    margin-top: 1em;
+#box {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
 }
 
-#socials a i {
-    transition-duration: 0.2s;
-    color: #ccc;
-    font-size: 4em;
-    padding: 0.475em;
+#bio {
+    text-align: center;
+    color: #fff;
+    opacity: 0.75;
+    font-size: 1.2rem;
+}  
+
+hr {
+    width: 10rem;
+    opacity: 0.65;
 }
-#socials a i:hover {
-    color: #FECCCC;
-    transition-duration: 0.2s;
+
+.socials {
+    text-align: center;
+    padding-top: 1rem;
 }
+
+.socials a {
+    padding: 0.3rem;
+    opacity: 0.5;
+    transition-duration: 0.075;
+}
+
+.socials a:hover {
+    opacity: 1;
+    transition-duration: 0.1s;
+}
+
+.socials img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    filter: grayscale() invert();
+}
+/*
+https://i.imgur.com/UlWpO62.jpg
+https://i.imgur.com/4E2Yfws.jpg
+*/
