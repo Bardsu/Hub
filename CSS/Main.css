@@ -1,6 +1,55 @@
+/*#FECCCC*/
+/*#CCFED1*/
 body {
     background-color: #121212;
-    color: #CCFED1;
-    width: auto;
-    margin: 50%;
+    font-family: 'Nunito', sans-serif;
+    color: #ccc;
+}
+
+#logotxt {
+    font-size: 58px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 0.35em;
+    transition-duration: 0.2s;
+}
+
+#logotxt:hover {
+    color: #FECCCC;
+    transition-duration: 0.2s;
+}
+
+#divider {
+    width: 35em;
+}
+
+#main {
+    margin-top: 10em;
+}
+
+#avatar {
+    border-radius: 50%;
+    margin-top: 1.5em;
+}
+
+#avatar1 {
+    display: block;
+    text-align: center;
+}
+
+#socials {
+    text-align: center; 
+    margin-top: 1em;
+}
+
+#socials a i {
+    transition-duration: 0.2s;
+    color: #ccc;
+    font-size: 4em;
+    padding: 0.475em;
+}
+#socials a i:hover {
+    color: #FECCCC;
+    transition-duration: 0.2s;
 }
